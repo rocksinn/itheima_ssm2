@@ -22,7 +22,7 @@ public class AccountController {
     @ResponseBody
     public String save(Account account){
         accountService.save(account);
-        return "保存成功";
+        return "保存成功1";
     }
 
     //查询
